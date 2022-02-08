@@ -21,7 +21,7 @@ function HomeScreen({ history }) {
     return (
         <div>
             {!keyword && <ProductCarousel />}
-            <h1>Lastest Products</h1>
+            <h1>Lastest MacsTechCompany Products</h1>
             {loading ? <Loader />
                 : error ? <Message variant='danger'>{error}</Message>
                     :
